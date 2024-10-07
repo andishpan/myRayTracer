@@ -3,6 +3,7 @@ Overview
 This project is a 3D Ray Tracing engine built in Java. Ray tracing is a rendering technique that simulates the way light interacts with objects in a scene to generate realistic images. 
 I have  implemented various geometric shapes (spheres, cubes, cylinders, etc.) and rendering techniques to create a scene with lighting, shadows, reflections, and other visual effects.
 
+![Ray Tracer Image](src/main/resources/raytracer.png)
 
 
 Features
