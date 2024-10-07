@@ -153,8 +153,8 @@ public class RayTracer {
                 if (cachedColor != null) {
                     pixels[y * RES_X + x] = cachedColor;
                 } else {
-                    int color = RayTracingEngine.traceRayWithSuperSampling(scene, light, camera, x, y, useBVH);
-                   // int color = RayTracingEngine.traceRayWithEnhancedSuperSampling(scene, light, camera, x, y, useBVH);
+                    //int color = RayTracingEngine.traceRayWithSuperSampling(scene, light, camera, x, y, useBVH);
+                    int color = RayTracingEngine.traceRayWithEnhancedSuperSampling(scene, light, camera, x, y, useBVH);
                      //int color = traceRayWithoutSuperSampling(scene, light, camera, x, y, useBVH);
 
                     pixels[y * RES_X + x] = color;
